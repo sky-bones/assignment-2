@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	background-color: black;
+
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+
+.clockface {
+	background-image: url(../images/clock-face.svg);
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.center {
+	position: absolute;
+	top: calc(50% - 14px);
+	left: calc(50% - 14px);
+	width: 28px;
+}
+
+
+.hand {
+	position: absolute;
+	width: 14px;
+}
+
+.hand-hour {
+	width: 14px;
+	left: calc(50% - 7px);
+	bottom: calc(50% - 7px);
+}
+
+.hand-minute {
+	width: 14px;
+	left: calc(50% - 7px);
+	bottom: calc(50% - 7px);
+}
+
+
+

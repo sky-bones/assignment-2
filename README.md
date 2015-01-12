@@ -1,2 +1,4 @@
-# assignment-2
-A clockface, using transitions 
+dsn1676-week-1-review
+=====================
+
+lots of review things!! 
