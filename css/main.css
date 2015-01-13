@@ -14,7 +14,6 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	background-color: black;
-
 }
 
 *,*:before, *:after {
@@ -40,7 +39,6 @@ img {
 	border-radius: 50%;
 	display: inline-block;
 	transition: all 500ms linear;
-
 }
 
 .btn-forwards {
@@ -65,7 +63,6 @@ img {
 	height: 300px;
 	background-repeat: no-repeat;
 	position: relative;
-
 }
 
 .clockface:target .hand-hour {
@@ -76,14 +73,12 @@ img {
 	transform: rotate(4320deg);
 }
 
-
 .center {
 	position: absolute;
 	top: calc(50% - 14px);
 	left: calc(50% - 14px);
 	width: 28px;
 }
-
 
 .hand {
 	position: absolute;
