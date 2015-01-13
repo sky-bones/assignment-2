@@ -26,8 +26,38 @@ img {
 	display: block;
 }
 
+.main {
+	text-align: center;
+}
+
+.btn {
+	text-align: center;
+	font-family: arial, serif;
+	text-decoration: none;
+	width: 6em;
+	line-height: 6em;
+	border-radius: 50%;
+	display: inline-block;
+	transition: all 500ms linear;
+}
+
+.btn-forwards {
+	background-color: green;
+	color: white;
+}
+
+.btn-backwards {
+	background-color: red;
+	color: white;
+}
+
+.btn:hover {
+	color: black;
+	background-color: white;
+}
 
 .clockface {
+	margin: 0 auto;
 	background-image: url(../images/clock-face.svg);
 	width: 300px;
 	height: 300px;
@@ -36,14 +66,13 @@ img {
 
 }
 
-.clockface:hover .hand-hour {
+.clockface:target .hand-hour {
 	transform: rotate(360deg);
 }
 
-.clockface:hover .hand-minute {
+.clockface:target .hand-minute {
 	transform: rotate(4320deg);
 }
-
 
 
 .center {
@@ -74,6 +103,3 @@ img {
 	bottom: calc(50% - 7px);
 	transition: all 6s linear;
 }
-
-
-
